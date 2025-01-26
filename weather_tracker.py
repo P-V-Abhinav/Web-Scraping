@@ -17,7 +17,8 @@ base_lookup_URL = 'https://www.wunderground.com/hourly/{}/date/{}-{}-{}.html'
 
 # Specify locations (e.g., New York City, Los Angeles, Chicago)
 locations = {
-    "London": "gb/london",
+    "Allapuzha": "in/allapuzha",
+    # "London": "gb/london",
     # "los-angeles": "us/ca/los-angeles",
     # "chicago": "us/il/chicago"
 }
