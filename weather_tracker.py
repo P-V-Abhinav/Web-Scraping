@@ -31,9 +31,9 @@ end_date = date.today() + timedelta(days=4)
 options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')
 #options.add_argument('--headless')  # Run Chrome in headless mode
-driver_path = r"C:\Users\Abhinav P V\Desktop\FPR\chromedriver-win64\chromedriver.exe"
-service = Service(driver_path)
-driver = webdriver.Chrome(service=service, options=options)
+# driver_path = r"C:\Users\Abhinav P V\Desktop\FPR\chromedriver-win64\chromedriver.exe"
+# service = Service(driver_path)
+driver = webdriver.Chrome(options=options)
 
 # DataFrame to hold precipitation data
 df_prep = pd.DataFrame(columns=["Location", "Day", "Precipitation"])
